@@ -1,0 +1,15 @@
+# Logfile created on Tue Dec 29 18:16:36 +0000 2009 by /
+D, [2009-12-29T18:16:36.796521 #2861] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2009-12-29T18:16:37.695220 #2861] DEBUG -- : REQUESTING PAGE: GET /search with {"btnG"=>"Google Search", "hl"=>"en", "meta"=>"", "q"=>"asp.net", "ie"=>"ISO-8859-1", "source"=>"hp"} and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2009-12-29T18:17:15.501427 #2869] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2009-12-29T18:17:16.260569 #2869] DEBUG -- : REQUESTING PAGE: GET /search with {"btnG"=>"Google Search", "hl"=>"en", "meta"=>"", "q"=>"asp.net", "ie"=>"ISO-8859-1", "source"=>"hp"} and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2009-12-29T18:17:49.412621 #2872] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2009-12-29T18:17:50.098757 #2872] DEBUG -- : REQUESTING PAGE: GET /search with {"btnG"=>"Google Search", "hl"=>"en", "meta"=>"", "q"=>"asp.net", "ie"=>"ISO-8859-1", "source"=>"hp"} and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2009-12-29T18:18:14.346683 #2874] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2009-12-29T18:18:15.046047 #2874] DEBUG -- : REQUESTING PAGE: GET /search with {"btnG"=>"Google Search", "hl"=>"en", "meta"=>"", "q"=>"asp.net", "ie"=>"ISO-8859-1", "source"=>"hp"} and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2009-12-29T18:18:23.625390 #2875] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2009-12-29T18:18:24.326776 #2875] DEBUG -- : REQUESTING PAGE: GET /search with {"btnG"=>"Google Search", "hl"=>"en", "meta"=>"", "q"=>"asp.net", "ie"=>"ISO-8859-1", "source"=>"hp"} and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2009-12-29T18:18:32.932375 #2876] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2009-12-29T18:18:33.639906 #2876] DEBUG -- : REQUESTING PAGE: GET /search with {"btnG"=>"Google Search", "hl"=>"en", "meta"=>"", "q"=>"asp.net", "ie"=>"ISO-8859-1", "source"=>"hp"} and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2009-12-29T18:19:08.275570 #2878] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2009-12-29T18:19:10.150117 #2878] DEBUG -- : REQUESTING PAGE: GET /search with {"btnG"=>"Google Search", "hl"=>"en", "meta"=>"", "q"=>"asp.net", "ie"=>"ISO-8859-1", "source"=>"hp"} and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}

@@ -15,6 +15,7 @@ When /^I click the "([^\"]*)" button$/ do |button|
 end
  
 Then /^I should see the first result "([^\"]*)"$/ do |result|
+  puts response
   response.should contain(result)
 end
  

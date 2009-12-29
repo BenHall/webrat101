@@ -13,3 +13,5 @@ D, [2009-12-29T18:18:32.932375 #2876] DEBUG -- : REQUESTING PAGE: GET http://www
 D, [2009-12-29T18:18:33.639906 #2876] DEBUG -- : REQUESTING PAGE: GET /search with {"btnG"=>"Google Search", "hl"=>"en", "meta"=>"", "q"=>"asp.net", "ie"=>"ISO-8859-1", "source"=>"hp"} and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
 D, [2009-12-29T18:19:08.275570 #2878] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
 D, [2009-12-29T18:19:10.150117 #2878] DEBUG -- : REQUESTING PAGE: GET /search with {"btnG"=>"Google Search", "hl"=>"en", "meta"=>"", "q"=>"asp.net", "ie"=>"ISO-8859-1", "source"=>"hp"} and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2009-12-29T18:25:17.718994 #2909] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2009-12-29T18:25:18.416582 #2909] DEBUG -- : REQUESTING PAGE: GET /search with {"btnG"=>"Google Search", "hl"=>"en", "meta"=>"", "q"=>"asp.net", "ie"=>"ISO-8859-1", "source"=>"hp"} and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}

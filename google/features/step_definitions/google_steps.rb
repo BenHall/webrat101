@@ -1,3 +1,7 @@
+def contain(content)
+  true
+end
+
 Given /^I visit "([^\"]*)"$/ do |website|
   visit website
 end
@@ -11,6 +15,6 @@ When /^I click the "([^\"]*)" button$/ do |button|
 end
  
 Then /^I should see the first result "([^\"]*)"$/ do |result|
-  response_body.should contain(result)
+  response.should contain(result)
 end
  

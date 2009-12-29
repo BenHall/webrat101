@@ -9,7 +9,7 @@ World do
 end
 
 def empty_database()
-  puts "We could do whatever... ;)"
+  #puts "We could do whatever... ;)"
 end
 
 Before do

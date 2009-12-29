@@ -1,2 +1,3 @@
-webrat: --require features/support/webrat_env.rb --require features/step_definitions --require features/support/env.rb
-selenium: --require features/support/selenium_env.rb --require features/step_definitions --require features/support/env.rb
+base: --require features/step_definitions --require features/support/env.rb
+webrat: --require features/support/webrat_env.rb --profile base
+selenium: --require features/support/selenium_env.rb --profile base

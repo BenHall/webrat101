@@ -8,17 +8,15 @@ def get_browser_key()
   return command
 end
 
-AfterConfiguration do |cucumber_config|     
-   Webrat.configure do |config|
-     config.mode = :selenium
-     config.selenium_server_address = '127.0.0.1'
-     config.selenium_server_port = 4444
-     config.application_port = 4444
-     config.application_framework = :external
+Webrat.configure do |config|
+  config.mode = :selenium
+  config.selenium_server_address = '127.0.0.1'
+  config.selenium_server_port = 4444
+  config.application_port = 4444
+  config.application_framework = :external
 
-     config.selenium_browser_key = cucumber_config.options[:browser]
-     puts "Executing tests using the browser #{config.selenium_browser_key}"
-   end
+  config.selenium_browser_key = ENV['browser']
+  puts "Executing tests using the browser #{config.selenium_browser_key}"
 end
 
 class MechanizeWorld < Webrat::MechanizeAdapter

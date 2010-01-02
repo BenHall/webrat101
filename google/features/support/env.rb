@@ -1,9 +1,10 @@
 require "spec/expectations"
 require "webrat"
+require 'cucumber/cli/options'
 
 class MechanizeWorld < Webrat::MechanizeAdapter
 end
-  
+
 World do
   MechanizeWorld.new
 end

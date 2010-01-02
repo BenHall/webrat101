@@ -1,24 +1,24 @@
 require "webrat/selenium"
 
-  def get_browser_key()
-    command = "*firefox"
-    command = ENV['BROWSER'] if ENV['BROWSER']
-    cmdIndex = ARGV.index '--browser'
-    command = ARGV[cmdIndex + 1] unless cmdIndex.nil?
-    return command
-  end
+def get_browser_key()
+  command = "*firefox"
+  command = ENV['BROWSER'] if ENV['BROWSER']
+  cmdIndex = ARGV.index '--browser'
+  command = ARGV[cmdIndex + 1] unless cmdIndex.nil?
+  return command
+end
 
+AfterConfiguration do |cucumber_config|     
+   Webrat.configure do |config|
+     config.mode = :selenium
+     config.selenium_server_address = '127.0.0.1'
+     config.selenium_server_port = 4444
+     config.application_port = 4444
+     config.application_framework = :external
 
- 
-Webrat.configure do |config|
-  config.mode = :selenium
-  config.selenium_server_address = '127.0.0.1'
-  config.selenium_server_port = 4444
-  config.application_port = 4444
-  config.application_framework = :external
-  
-  config.selenium_browser_key = get_browser_key
-  puts "Executing tests using the browser #{config.selenium_browser_key}"
+     config.selenium_browser_key = cucumber_config.options[:browser]
+     puts "Executing tests using the browser #{config.selenium_browser_key}"
+   end
 end
 
 class MechanizeWorld < Webrat::MechanizeAdapter

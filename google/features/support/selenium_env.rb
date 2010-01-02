@@ -1,4 +1,5 @@
 require "webrat/selenium"
+require File.join(File.dirname(__FILE__), 'cucumber-screenshot')
 
 def get_browser_key()
   command = "*firefox"
@@ -19,7 +20,12 @@ Webrat.configure do |config|
   puts "Executing tests using the browser #{config.selenium_browser_key}"
 end
 
+After do |scenario|
+  take_screenshot("screenshot-#{Time.new.to_i}") if scenario.failed?
+end
+
 class MechanizeWorld < Webrat::MechanizeAdapter
+  include ::Screenshots
   include Webrat::Methods
   include Webrat::Selenium::Methods
   include Webrat::Selenium::Matchers
